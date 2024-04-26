@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    position: relative;   
+}
+#a{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    background-image: url(./ASSESTS/clg\ image.jpg);
+    background-size: 100%;
+      background-repeat: no-repeat;
+      box-shadow: 3px 3px 5px black;
+}
+
+
+#b{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: black;
+    background-size: 100%;
+      background-repeat: no-repeat;
+      opacity: 0.1; 
+      transition: opacity 2s ;
+}
+#main:hover #b{
+    opacity: 0.6;
+}
+
+/*header css*/
+
+#header{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    top: 300px;
+  
+ 
+   
+}
+#h1{
+    position: absolute;
+    font-size: 35px;
+   
+    color: #fff;
+    left: -300px; 
+    transition: left 4s;
+}
+#main:hover #h1{
+    left: 13%;
+}
+
+
+#h2{
+    position: absolute;
+    font-size: 35px;
+   
+    color: #fff;
+    left: -300px;  
+    transition: left 3s;
+}
+#main:hover #h2{
+    left: 29%;
+}
+
+
+#h3{
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    left: -350px;
+  transition: left 2s;
+  
+}
+#main:hover #h3{
+    left: 45%;
+}
+
+#h4{
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    left: -350px;
+    transition: left 1s ;
+   
+  
+}
+#main:hover #h4{
+    left:68%;  
+}
+#png{
+    position: absolute;
+    top: 10px;
+    width: 50vw;   height: 100vw;
+    background-image:url(./ASSESTS/college\ logo.png);
+
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+#code{
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    color: #fff;
+    font-size: 20px;
+    background-color: crimson;
+    font-family:sans-serif;
+}
+#header1{
+    width: 100%;
+    height: 150vh;
+    position: relative;
+}
+#d1{
+    position: absolute;
+    top: 130px;
+    width: 35vw;
+    left: 40PX;
+    height: 200px;
+    background-color: black;
+    font-size: 20PX;
+    text-align: center;
+    background-color:white;
+    padding-top: 90PX;
+    box-shadow: 10PX 10PX 0PX RED,-10PX -10PX 0PX greenyellow;
+    border-radius: 10PX;
+    transition: box-shadow 1s ;
+}
+#d1:hover {
+    box-shadow: -10PX -10PX 0PX blue,10PX 10PX 0PX orange;
+}
+#d2{
+    position: absolute;
+    top: 130px;
+    width: 40vw;
+    left: 105vb;
+    height: 200px;
+    padding: 50px;
+    background-color: black;
+    font-size: 20PX;
+    text-align: center;
+    background-color:white;
+    padding-top: 40PX;
+    box-shadow: 10PX 10PX 0PX rgb(231, 109, 141),-10PX -10PX 0PX rgb(47, 220, 255);
+
+    border-radius: 10PX;
+    transition: box-shadow 1s ;
+
+}
+#d2:hover {
+    box-shadow: -10PX -10PX 0PX rgb(225, 255, 0),10PX 10PX 0PX rgb(255, 0, 225);
+}
+
+#d3{
+
+    position: absolute;
+    top: 600px;
+    width: 30vw;
+    height: 80px;
+    left: 30px;
+    font-size: 30PX;
+    padding-top: 30px;
+    text-align: center;
+    background-color:#fff;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10PX;
+    transition: background-color 5s color 5s font-size 5s;
+
+}
+#d3:hover{
+background-color: crimson;
+color: #fff;
+font-size: 35px;
+}
+#d4{
+
+    position: absolute;
+    top: 600px;
+    width: 30vw;
+    height: 80px;
+    left: 35%;
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10PX;
+    transition: background-color 5s color 5s font-size 5s; 
+
+}
+#d4:hover{
+    background-color: crimson;
+    color: #fff;
+    font-size: 35px;
+    }
+    
+#d5{
+
+    position: absolute;
+    top: 600px;
+    width: 30vw;
+    height: 80px;
+    left: 68%;
+    font-size: 30PX;
+    padding-top: 30px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10PX;
+    transition: background-color 5s color 5s font-size 5s; 
+
+}
+#d5:hover{
+    background-color: crimson;
+    color: #fff;
+    font-size: 35px;
+    }
+    
+#d6{
+
+    position: absolute;
+    top: 800px;
+    width: 30vw;
+    height: 80px;
+    left: 68%;
+    font-size: 30PX;
+    padding-top: 30px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10PX;
+    transition: background-color 5s color 5s font-size 5s; 
+
+}
+#d6:hover{
+    background-color: crimson;
+    color: #fff;
+    font-size: 35px;
+    }
+    
+#d7{
+
+    position: absolute;
+    top: 800px;
+    width: 30vw;
+    height: 80px;
+    left: 35%;
+    font-size: 30PX;
+    padding-top: 30px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10PX;
+    transition: background-color 5s color 5s font-size 5s; 
+
+}
+#d7:hover{
+    background-color: crimson;
+    color: #fff;
+    font-size: 35px;
+    }
+    
+#d8{
+
+    position: absolute;
+    top: 800px;
+    width: 30vw;
+    height: 80px;
+    left: 30px;
+    font-size: 30PX;
+    padding-top: 30px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10PX;
+    transition: background-color 5s color 5s font-size 5s; 
+
+}
+#d8:hover{
+    background-color: crimson;
+    color: #fff;
+    font-size: 35px;
+    }
+    
+#co{
+    position: absolute;
+    top: 500px;
+    left: 40%;
+    font-size: 50px;
+}
+#video{
+    position: absolute;
+  
+    top: 1200px;
+    width: 50vw;
+    left: 100px;
+    height: 200px;
+  
+}
+#map{
+    position: absolute;
+    bottom: 10px;
+    width: 50vw;
+    left: 600px;
+    height: 200px;
+}
+#place{
+    width: 30vw;
+    height: 100px;
+    position: absolute;
+   top: 1060px;
+    left: 100px;
+    
+}
+#pl{
+   padding: 30px;
+   position: absolute;
+  top: -20px;
+  left:120px ;
+  
+}
+
+#under{
+    position: absolute;
+    top: 50px;
+    width: 38%;
+    height: 5px;
+    left: 140px;
+    background-color: rgb(150, 16, 16);
+}
+
+#place1{
+
+    width: 40vw;
+    height: 100px;
+   top: 1800px;
+    position: absolute;
+    left: 50%;
+    
+}
+#pl1{
+   padding: 30px;
+   position: absolute;
+  top: "";
+  width: 50%;
+  left:120px ;
+   
+}
+#under1{
+    position: absolute;
+    top: 70px;
+    width: 50%;
+    height: 5px;
+    left: 150px;
+    background-color: rgb(140, 20, 20);
+    transition: width 1s;
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="./login.css">
+   
+</head>
+<body >
+    <div id="outter" >
+        <pre style=" font-size: 20px; color: #fff;"><b>Enter --->email:srinivas121@gmailcom
+                password:12345</b>    
+        </pre>
+        <p>if u give correct email and wrong password  inner background color will turns to blue color<br>
+            if u give correct password and wrong email  outer backgrund color will turns to lyt pink.</p>
+        <div id="inner">
+           <a href="./index.html" style="text-decoration: none;color: black;"> <h5 id="h">Home</h5></a>
+            <div id="login">
+                <form >
+                <h1 id="heading">Login</h1>
+                <h1 id="result"></h1>
+                <input id="email" type="text" placeholder="enter your email"  oninput="loginwebpage()" class="a"><br><br>
+               
+             
+                <input id="pswd" type="password" placeholder="enter your password" class="a"  oninput="loginwebpage()"  > <br><br>
+                <img src="./ASSESTS/open_eyes.png" alt="open" id="open"  onclick="closepass()">
+                <img src="./ASSESTS/close_eyes.png" alt="close" id="close" onclick="openpass()" >
+               
+             <a href="./forgetpassword.html" style="text-decoration: none;"> <h1 id="pass">forgot password ?</h1></a>
+                
+               <input id=submit type="submit" onclick=" loginwebpage()" value="login" >
+               <h1 id="user">new user? </h1 > <a href="./registration.html" style="text-decoration: none;"><h1 id="sign">signup</h1></a>
+            </form>
+            </div>
+        </div>
+    </div>
+    <script>
+       const userId="srinivas121@gmail.com";
+       const password=12345;
+       function loginwebpage()
+       {
+            var userGivenId=document.getElementById("email").value
+            var userGivenPassword=document.getElementById("pswd").value
+            if(userId==userGivenId&&userGivenPassword==password)
+            {
+                   var form=document.forms
+                    form[0].action="./index.html"
+                    form[0].elements[2].type="submit"
+            }
+            else if(userId!=userGivenId&&password==userGivenPassword)
+            {
+
+                document.getElementById("outter").style.backgroundImage="linear-gradient(rgb(182, 17, 107),rgb(182, 17, 107))";
+                document.getElementById("result").innerHTML="wrong userid "
+                document.getElementById("pswd").style.borderColor="royalblue"
+                document.getElementById("email").style.borderColor="red"
+
+            }
+            else if(userId==userGivenId&&password!=userGivenPassword)
+            {
+                
+                document.getElementById("inner").style.backgroundImage="linear-gradient(rgb(42, 42, 182),rgb(42, 42, 182))";
+                document.getElementById("result").innerHTML="Enter password"
+                document.getElementById("email").style.borderColor="royalblue"
+                document.getElementById("pswd").style.borderColor="red"
+               
+            
+            }
+            
+        else{
+                     document.getElementById("result").innerHTML=" wrong user id and password entered"
+                    document.getElementById("pswd").style.borderColor="red"
+                     document.getElementById("email").style.borderColor="red"
+                     document.body.style.backgroundImage="none"
+                    document.body.style.backgroundColor="red"
+            }
+        }
+            function openpass()
+            {
+                document.getElementById("pswd").removeAttribute("type")
+                document.getElementById("close").style.display="none"
+                document.getElementById("open").style.transform="rotate Y(360deg)"
+                document.getElementById("open").style.transition=" transform 0.5s"
+
+
+
+            }
+            function closepass()
+            {
+                document.getElementById("pswd").setAttribute("type","password")
+                document.getElementById("close").style.display="block"
+               
+                document.getElementById("open").style.transform="rotate Y(-360deg)"
+                document.getElementById("close").style.transition="  0.5s"
+
+
+            }
+        
+    </script>
+</body>
+</html>

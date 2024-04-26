@@ -1,0 +1,398 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#header2{
+    top: 500px;
+    width: 100%;
+    height: 50vh;
+    background-color: brown;
+    position: relative;
+
+}
+#hd{
+    position: absolute;
+    width: 30vw;
+    height: 50px;
+    left: 40px;
+    color:#fff;
+    font-size: 30px;
+    font-style: var(#fff);
+}
+    
+#hd1{
+    position: absolute;
+    width: 30vw;
+    height: 50px;
+    left: 35px;
+    top:50px ;
+    color:#fff;
+    font-size: 35px;
+    
+}
+#hd2{
+    position: absolute;
+    width: 30vw;
+    height: 80px;
+    left: 35px;
+    top:100px ;
+    text-align:left;
+    color:#0d0101;
+    font-size: 15px;
+    font-family: sans-serif; 
+    transition: color 1s  ; 
+}
+#hd2:hover{
+    color: #fff;
+   
+}
+#hd3{
+    position: absolute;
+    width: 30vw;
+    height: 50px;
+    left: 35px;
+    top:250px ;
+    color:#fff;
+    opacity: 0.5;
+    font-size: 15px;
+    font-family: sans-serif; 
+    transition: opacity 1s;  
+}
+#hd3:hover{
+    opacity: 0.9;
+}
+/*social media logos*/
+#logo{
+    position: absolute;
+    float: left;
+    width: 30vw;
+    height: 50px;
+    left: 30px;
+    top: 200px;
+    background-repeat: no-repeat;
+    background-size: 20PX 20PX;
+    font-size: 20px;
+}
+#logo1{
+    position: absolute;
+   
+    width: 20vw;
+    height: 20vh;
+   
+
+}
+#logof{
+    position: absolute;
+    width: 3vw;
+    background-image: url(./ASSESTS/facebooklogo.png);
+    background-repeat: no-repeat;
+ background-size: 100%;
+    height: 20vh;
+    
+}
+#logo2{
+    position: absolute;
+   left: 50px;
+    width: 20vw;
+    height: 20vh;
+    top:5px
+
+}
+#logoI{
+    position: absolute;
+    width: 2vw;
+    background-image: url(./ASSESTS/instagram.svg);
+    background-repeat: no-repeat;
+ background-size: 100%;
+    height: 20vh;
+    
+}
+
+#logo3{
+    position: absolute;
+   left: 100px;
+    width: 20vw;
+    height: 20vh;
+    top:8px
+
+}#logoT{
+    position: absolute;
+    width: 2vw;
+    background-image: url(./ASSESTS/twitter.png);
+    background-repeat: no-repeat;
+ background-size: 100%;
+    height: 20vh;
+    
+}
+/*contact details of college*/
+#phone{
+    position: absolute;
+    width: 30vw;
+    height: 200px;
+    top: 10px;
+    left: 40%;
+    color: #fff;
+    
+}
+#p0{
+    position: absolute;
+    align-items: center;
+    color: #ffff;
+    font-size: 15px;
+    top: 50px;
+}
+#p1{
+    position: absolute;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    top: 80px;
+}
+#p2{
+    position: absolute;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    top: 120px;
+}
+
+
+
+#p3{
+    position: absolute;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    top: 160px;
+}
+
+
+
+#p4{
+    position: absolute;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    top: 120px;
+}
+
+#t{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url(./ASSESTS/arrow.png);
+    background-size: 100%;
+box-shadow: 3px 5px 8px black;
+background-color: #d3da0c;
+top: 300px;
+right: 100px;
+border-radius: 5px;
+transition:  background-color 1s;
+}
+#t:hover{
+    background-color: #fff;
+}
+
+@media only  screen and (max-width:600px)
+{
+    #header2{
+        top: 500px;
+        width: 100%;
+        height: 200vh;
+        background-color: brown;
+        position: relative;
+    
+    }
+    #hd{
+        position: absolute;
+        width: 100%;
+        height: 50px;
+       left: 100px;
+        color:#fff;
+        font-size: 10px;
+        font-style: var(#fff);
+    }
+        
+    #hd1{
+        position: absolute;
+        width: 90%;
+        height: 50px;
+        left: 50px;
+        top:20px;
+        color:#fff;
+        font-size: 25px;
+        
+    }
+    #hd2{
+        position: absolute;
+        width: 80%;
+        height: 80px;
+        left: 35px;
+        top:70px ;
+        text-align:left;
+        color:#0d0101;
+        font-size: 15px;
+        font-family: sans-serif; 
+        transition: color 1s  ; 
+    }
+    #hd2:hover{
+        color: #fff;
+       
+    }
+    #hd3{
+        position: absolute;
+        width: 30vw;
+        height: 50px;
+        left: 35px;
+        top:250px ;
+        color:#fff;
+        opacity: 0.5;
+        font-size: 15px;
+        font-family: sans-serif; 
+        transition: opacity 1s;  
+    }
+    #hd3:hover{
+        opacity: 0.9;
+    }
+    /*social media logos*/
+    #logo{
+        position: absolute;
+        float: left;
+        width: 30vw;
+        height: 50px;
+        left: 30px;
+        top: 200px;
+        background-repeat: no-repeat;
+      
+        font-size: 20px;
+    }
+    #logo1{
+        position: absolute;
+       
+        width: 50px;
+        height: 50px;
+       
+    
+    }
+    #logof{
+        position: absolute;
+        width: 10vw;
+        background-image: url(./ASSESTS/facebooklogo.png);
+        background-repeat: no-repeat;
+     background-size: 100%;
+        height: 20vh;
+        
+    }
+    #logo2{
+        position: absolute;
+       left: 50px;
+        width: 20vw;
+        height: 20vh;
+        top:5px
+    
+    }
+    #logoI{
+        position: absolute;
+        width: 2vw;
+        background-image: url(./ASSESTS/instagram.svg);
+        background-repeat: no-repeat;
+     background-size: 100%;
+        height: 20vh;
+        
+    }
+    
+    #logo3{
+        position: absolute;
+       left: 100px;
+        width: 20vw;
+        height: 20vh;
+        top:8px
+    
+    }#logoT{
+        position: absolute;
+        width: 2vw;
+        background-image: url(./ASSESTS/twitter.png);
+        background-repeat: no-repeat;
+     background-size: 100%;
+        height: 20vh;
+        
+    }
+    /*contact details of college*/
+    #phone{
+        position: absolute;
+        width: 250px;
+        height: 200px;
+        top: 400px;
+        left: 40%;
+        color: #fff;
+        
+    }
+    #p0{
+        position: absolute;
+        width: 200px;
+        align-items: center;
+        color: #ffff;
+        font-size: 15px;
+        top: 50px;
+    }
+    #p1{
+        position: absolute;
+        align-items: center;
+        color: #fff;
+        font-size: 15px;
+        top: 100px;
+    }
+    #p2{
+        position: absolute;
+        align-items: center;
+        color: #fff;
+        font-size: 15px;
+        top: 150px;
+    }
+    
+    
+    
+    #p3{
+        position: absolute;
+        align-items: center;
+        color: #fff;
+        font-size: 15px;
+        top: 200px;
+    }
+    
+    
+    
+    #p4{
+        position: absolute;
+        align-items: center;
+        color: #fff;
+        font-size: 15px;
+        top: 120px;
+    }
+    
+    #t{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-image: url(./ASSESTS/arrow.png);
+        background-size: 100%;
+    box-shadow: 3px 5px 8px black;
+    background-color: #d3da0c;
+    top: 1350px;
+    right: 50px;
+    border-radius: 5px;
+    transition:  background-color 1s;
+    }
+    #t:hover{
+        background-color: #fff;
+    }
+    
+}
+
+
+
+
+
+
+
+

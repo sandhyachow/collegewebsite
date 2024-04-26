@@ -1,0 +1,397 @@
+*{
+    margin:0px;
+    padding: 0px;
+   
+    
+}
+#container{
+                width: 100%;
+                height: 300vh;
+                background-color: antiquewhite;
+                position: relative;
+        }
+    
+        #a{
+          
+            width: 100%;
+            height: 300px;
+            position: absolute;
+          /* background-color: antiquewhite;*/
+            background-image:url(./ASSESTS/./mechamical\ png.png) ; 
+            background-size: 300px; 
+            background-repeat: no-repeat; 
+            background-position: center;
+            box-shadow: 2px 3px 3px;
+            border-radius: 10px ;
+        }
+        #h1{
+            text-align: center;
+        }
+        #home{
+            width:5vw;
+            height: 5vh;
+            position: absolute;
+            background-color:#fff;
+            color:#000;
+            font-size: 10px;
+           left: 20px;
+            top: 30px;
+            padding-left: 3px;
+            padding-top: 2px;
+            text-align: center;
+            box-shadow:2px 2px 5px black ;
+            border-radius: 15px;
+            transition: background-color 2s color 2s;
+        }
+        #home:hover{
+            background-color:tomato;
+            color: #fff;
+        }
+        #hm{
+            margin-top: 5px;
+        }
+        #OurVision{
+            width: 45%;
+            height: 20vh;
+            position: absolute;
+            top: 340px;
+            left: 120px;
+            background-color: #fff; 
+            box-shadow: 2px 2px 3px #000; 
+            border-radius: 15px 60px 60px 15px; 
+        }
+        #ov{
+            margin-left:30px;
+            margin-top: 20px;
+            color:brown;
+        }
+        #op{
+            margin-top: 10px;
+            margin-left: 60px;
+            font-size: 18px;
+        }
+        #ourmission
+        {
+            width:75% ;
+            height: 40vh;
+            position: absolute;
+            background-color: #fff;
+            box-shadow: 2px 2px 5px #000;
+            top: 580px;
+            left: 320px;
+            box-shadow: 2px 2px 5px #000; 
+            border-radius: 90px 15px 15px 90px;    
+        }
+        #om{
+            margin-left: 60px;
+            margin-top: 10px;
+        }
+        #om1{
+            margin-left: 20px;
+            margin-top: 10px;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 17px;
+        }
+        #department{
+            width: 100%;
+            height: 60vh;
+            position: absolute;
+            top: 1000px;
+            background-color:antiquewhite;
+           
+           box-shadow: 2px 2px 5px white,-2px -2px 5px white;
+
+        }
+        #dpt{
+            text-align: center;
+            margin-top: 40px;
+        }
+        #dpt1{
+            text-align: center;
+            margin-top: 60px;
+            color: rgb(9, 221, 79);
+            font-family: sans-serif;
+            
+        }
+        #dpt2{
+            margin-top: 70px;
+            margin-left: 160px;
+            color: #0d4a9b;
+            font-size:60px;
+          
+        }
+        #dpt3{
+            margin-left: 100px;
+            font-size: 35px;
+            color: brown;
+        }
+       
+        #depart{
+           width: 500px;
+           height: 50px;
+           position: absolute;
+           top: 270px;
+           margin-left: 650px;
+         
+        }#dpt4{
+            margin-top: -25px;
+            margin-left: 120px;
+            color: #0d4a9b;
+            font-size:60px;
+          
+        }
+        #dpt5{
+            margin-left: 100px;
+            color: brown;
+            margin-left: 90px;
+            font-size: 30px;
+        }
+         
+        #depart1{
+            width: 500px;
+            height: 50px;
+            position: absolute;
+            top: 270px;
+            margin-left: 650px;
+          
+         }#dpt6{
+             margin-top: -25px;
+             margin-left: 620px;
+             color: #0d4a9b;
+             font-size:60px;
+           
+         }
+         #dpt7{
+             margin-left: 600px;
+             color: brown;
+             font-size: 35px;
+         }
+        
+         #img{
+            width: 100%;
+            height: 80vh;
+            position: absolute;
+            top: 1450px;
+            background-color:antiquewhite;
+           box-shadow: 2px 2px 5px white,-2px -2px 5px white;
+         }
+         #img1{
+            margin-top: 60px;
+            width: 80%;
+            height: 300px;
+            align-items: center;
+            margin-left: 120px;
+            border-radius: 30px;
+            box-shadow: 10px 10px 0px rgb(14, 124, 203),-10px -10px 0px rgb(14, 124, 203);
+         }
+         #place{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 50px;
+            color: brown;
+         }
+         #header2{
+            top: 2000px;
+            width: 100%;
+            height: 50vh;
+            background-color: brown;
+            box-shadow: 2px 2px 5px white,-2px -2px 5px white;
+            position: relative;
+        
+        }
+        #hd{
+            position: absolute;
+            width: 30%;
+            height: 50px;
+            left: 40px;
+            color:#fff;
+            font-size: 30px;
+            font-style: var(#fff);
+        }
+            
+        #hd1{
+            position: absolute;
+            width: 30%;
+            height: 50px;
+            left: 35px;
+            top:50px ;
+            color:#fff;
+            font-size: 35px;
+            
+        }
+        #hd2{
+            position: absolute;
+            width: 30%;
+            height: 80px;
+            left: 35px;
+            top:100px ;
+            text-align:left;
+            color:#0d0101;
+            font-size: 15px;
+            font-family: sans-serif; 
+            transition: color 1s  ; 
+        }
+        #hd2:hover{
+            color: #fff;
+           
+        }
+        #hd3{
+            position: absolute;
+            width: 30%;
+            height: 50px;
+            left: 35px;
+            top:250px ;
+            color:#fff;
+            opacity: 0.5;
+            font-size: 15px;
+            font-family: sans-serif; 
+            transition: opacity 1s;  
+        }
+        #hd3:hover{
+            opacity: 0.9;
+        }
+        /*social media logos*/
+        #logo{
+            position: absolute;
+            float: left;
+            width: 30vw;
+            height: 50px;
+            left: 30px;
+            top: 200px;
+            background-repeat: no-repeat;
+            background-size: 20PX 20PX;
+            font-size: 20px;
+        }
+        #logo1{
+            position: absolute;
+           
+            width: 20vw;
+            height: 20vh;
+           
+        
+        }
+        #logof{
+            position: absolute;
+            width: 3vw;
+            background-image: url(./ASSESTS/facebooklogo.png);
+            background-repeat: no-repeat;
+         background-size: 100%;
+            height: 20vh;
+            
+        }
+        #logo2{
+            position: absolute;
+           left: 50px;
+            width: 20%;
+            height: 20vh;
+            top:5px
+        
+        }
+        #logoI{
+            position: absolute;
+            width: 2vw;
+            background-image: url(./ASSESTS/instagram.svg);
+            background-repeat: no-repeat;
+         background-size: 100%;
+            height: 20vh;
+            
+        }
+        
+        #logo3{
+            position: absolute;
+           left: 100px;
+            width: 20%;
+            height: 20vh;
+            top:8px
+        
+        }#logoT{
+            position: absolute;
+            width: 2vw;
+            background-image: url(./ASSESTS/twitter.png);
+            background-repeat: no-repeat;
+         background-size: 100%;
+            height: 20vh;
+            
+        }
+        /*contact details of college*/
+        #phone{
+            position: absolute;
+            width: 30%;
+            height: 200px;
+            top: 10px;
+            left: 40%;
+            color: #fff;
+            
+        }
+        #p0{
+            position: absolute;
+            align-items: center;
+            color: #ffff;
+            font-size: 15px;
+            top: 50px;
+        }
+        #p1{
+            position: absolute;
+            align-items: center;
+            color: #fff;
+            font-size: 15px;
+            top: 80px;
+        }
+        #p2{
+            position: absolute;
+            align-items: center;
+            color: #fff;
+            font-size: 15px;
+            top: 120px;
+        }
+        
+        
+        
+        #p3{
+            position: absolute;
+            align-items: center;
+            color: #fff;
+            font-size: 15px;
+            top: 160px;
+        }
+        
+        
+        
+        #p4{
+            position: absolute;
+            align-items: center;
+            color: #fff;
+            font-size: 15px;
+            top: 120px;
+        }
+        
+        #t{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-image: url(./ASSESTS/arrow.png);
+            background-size: 100%;
+        box-shadow: 3px 5px 8px black;
+        background-color: #d3da0c;
+        top: 300px;
+        right: 100px;
+        border-radius: 5px;
+        transition:  background-color 1s;
+        }
+        #t:hover{
+            background-color: #fff;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       
+              
